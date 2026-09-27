@@ -1,0 +1,53 @@
+# Build
+build/
+cmake-build-*/
+out/
+*.o
+*.a
+*.so
+*.so.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.autosave
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+*.user
+*.user.*
+CMakeLists.txt.user
+.cache/
+compile_commands.json
+
+# Qt
+*.qmlc
+*.jsc
+
+# Packages
+*.deb
+*.rpm
+*.tar.gz
+*.AppImage
+
+# Runtime
+*.log
+*.core
+core
+.linhub/
+dist/
+
+# Local deploy scripts with host credentials — do not publish
+tools/remote_*.py
+tools/remote_*.sh
+tools/xtap.c
+tools/xtap
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
